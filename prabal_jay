@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabal Jay | Portfolio</title>
+    <a href="https://myportfolio.com"></a>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f9fc;
+            background-image: url('https://pics.craiyon.com/2023-10-26/02fc6522b7054d939da525352775347d.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white; /* White text outside the cards */
+            line-height: 1.6;
+        }
+
+        header, section, footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #007acc;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            color: black; /* Black text inside the cards */
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            border: 5px solid white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prabal Jay</h1>
+    <p>Aspiring Software Developer | Proficient in Python and C/C++ with a Focus on Problem-Solving and Full-Stack Web Development</p>
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHBQIPEQnAFKw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732294660273?e=1738800000&v=beta&t=zcMO7sJqaidcTaO7YZFMT2bYKhx-riiWi9cTQljcpsc" alt="Prabal Jay" class="profile-img">
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a B.Tech student actively pursuing knowledge and skills in technology and engineering. With expertise in programming languages like Python and C/C++, I am also expanding my abilities in software development, problem-solving, full-stack web development, and AI. My academic journey and projects have ignited my passion for solving real-world challenges through innovative solutions. I am particularly drawn to areas such as AI, blockchain, and UI/UX design.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>High School</h3>
+            <p>Jeevandeep Public School, Apr 2019 - Mar 2020</p>
+        </div>
+        <div class="card">
+            <h3>Intermediate</h3>
+            <p>Jeevandeep Public School, Apr 2021 - Mar 2022</p>
+        </div>
+        <div class="card">
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p>PSIT Kanpur, Computer Science and Engineering (Oct 2023 - Present)</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Online Book Store</h3>
+            <p>Collaborated on the development of a web-based platform for browsing, purchasing, and managing books online.</p>
+            <p>Took responsibility for structuring and implementing the HTML code, ensuring semantic accuracy and layout consistency.</p>
+            <p>Integrated dynamic book listings, category filters, and search functionality for enhanced discoverability.</p>
+            <p>Implemented responsive design principles for cross-device usability.</p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, JSON.</p>
+            <p><strong>Outcome:</strong> Delivered an interactive e-commerce platform tailored for engineering students to access and purchase academic books.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google">
+            <h3>Google Analytics Certification</h3>
+            <p>Google Digital Academy, Feb 2024</p>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/microsoft.png" alt="Microsoft">
+            <h3>Career Essentials in Data Analysis</h3>
+            <p>Microsoft & LinkedIn, Nov 2024</p>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5">
+            <h3>HTML5 - The Language</h3>
+            <p>Infosys Springboard, Oct 2024</p>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+            <h3>CSS3 Certification</h3>
+            <p>Infosys Springboard, Oct 2024</p>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap">
+            <h3>Twitter Bootstrap</h3>
+            <p>Infosys Springboard, Oct 2024</p>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python">
+            <h3>Python Fundamentals</h3>
+            <p>Infosys Springboard, Nov 2024</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Programming Languages</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python">
+            <h3>Python</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++">
+            <h3>C++</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C">
+            <h3>C</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript">
+            <h3>JavaScript</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5">
+            <h3>HTML5</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+            <h3>CSS3</h3>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Additional Skills</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Analytics">
+            <h3>Google Analytics</h3>
+        </div>
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/D5612AQFyfw5Ci5sEYA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1694627082947?e=2147483647&v=beta&t=bLHpKGDvQjxHOXOX_EyYf2YzTLXx8mZUqG9OqcVrT8Q" alt="Problem Solving">
+            <h3>Problem Solving</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/code.png" alt="Web Development">
+            <h3>Web Development</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/clock--v1.png" alt="Time Management">
+            <h3>Time Management</h3>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/musical-notes.png" alt="Music">
+            <h3>Music Appreciation</h3>
+        </div>
+        <div class="card">
+            <img src="https://t4.ftcdn.net/jpg/05/64/31/67/360_F_564316725_zE8llusnCk3Sfr9rdfKya6fV7BQbjfyV.jpg" alt="Gaming">
+            <h3>Gaming</h3>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/search.png" alt="Tech Browsing">
+            <h3>Tech Browsing</h3>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Links</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+            <a href="http://linkedin.com/in/prabal-jay-758086294">LinkedIn</a>
+        </div>
+        <div class="card">
+            <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+            <a href="http://github.com/PrabalJay">GitHub</a>
+        </div>
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFvx45x7j4Zhg/company-logo_200_200/company-logo_200_200/0/1631325952086?e=2147483647&v=beta&t=8xDf3gL66GDEXwDszLlF7Lhpvq7vkdgdzfdm3M5F68E" alt="LeetCode">
+            <a href="http://leetcode.com/u/PrabalJay/">LeetCode</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Prabal Jay | All rights reserved</p>
+</footer>
+
+</body>
+</html>
